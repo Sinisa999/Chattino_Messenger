@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/frutiger_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_email"
+            android:hint="@string/email"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/_50sdp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_password"
+            android:hint="@string/password"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/_50sdp">
+
+
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/login_loginBtn"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:fontFamily="@font/futuristic_armour"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

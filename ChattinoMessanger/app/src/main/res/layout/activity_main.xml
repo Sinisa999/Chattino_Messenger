@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/frutiger_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/_100sdp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/_44sdp"
+            android:text="Welcome to Chattino!!!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/futuristic_armour"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_100sdp">
+
+
+        <Button
+            android:id="@+id/login1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="LOGIN"
+            android:fontFamily="@font/futuristic_armour"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/register1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="REGISTER"
+            android:fontFamily="@font/futuristic_armour"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold">
+
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blokadica"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/_50sdp">
+
+    </ImageView>>
+
+
+</LinearLayout>

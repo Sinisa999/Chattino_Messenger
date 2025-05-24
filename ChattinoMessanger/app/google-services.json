@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661271978796",
+    "project_id": "chattino-messanger",
+    "storage_bucket": "chattino-messanger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661271978796:android:c22f8125804a959e314289",
+        "android_client_info": {
+          "package_name": "com.example.chattinomessanger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzpEYL9c_31vF5SCWbwRLEkoUj64SiO1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

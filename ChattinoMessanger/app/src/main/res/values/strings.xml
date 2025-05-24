@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chattino Messanger</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirm_passwod">Confirm passwod</string>
+    <string name="register">register</string>
+    <string name="email">email</string>
+</resources>
